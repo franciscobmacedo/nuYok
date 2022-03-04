@@ -50,6 +50,6 @@ button:hover {
 }
 img,
 canvas {
-  max-width: 50%;
+  width: 50%;
   height: auto;
 }

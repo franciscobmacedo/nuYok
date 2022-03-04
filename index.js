@@ -1,9 +1,6 @@
 const STEP = 20;
 const button = document.getElementsByTagName("button")[0];
 const drawCanvas = (img, canvas) => {
-  canvas.width = img.width;
-  canvas.height = img.height;
-
   const context = canvas.getContext("2d");
   context.drawImage(img, 0, 0);
   let directionX = Math.random() < 0.5 ? -1 : 1;
